@@ -34,5 +34,5 @@ https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
 注意，默认是建议选择“直连模式”来出站，这样对于按流量计费的方式没有压力，等需要科学上网时，在选择规则模式来出站。设置为“系统代理”会让小猫灰色激活为黑色。此时浏览器再改为“系统代理”就可以正常的科学上网了。点击“复制终端命令”，会得到如下的内容，拷贝到终端，就可以终端科学上网了。<br>
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7891<br>
 平时自己可以通过ping测试了解客户端和服务端的传输响应时延<br>
-![image](https://user-images.githubusercontent.com/4297820/144720640-6c228d6e-a75a-4098-ac7e-aa90e65315db.png)
-
+![image](https://user-images.githubusercontent.com/4297820/144720640-6c228d6e-a75a-4098-ac7e-aa90e65315db.png)<br>
+### 10 允许局域网连接，是我觉得最有用的功能。因为虚拟机中通过配置浏览器代理就可以通过代理客户端科学上网了。但是当局域网是通过热点搭建的时，这个功能是无效的。<br>
