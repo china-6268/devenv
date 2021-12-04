@@ -24,3 +24,6 @@ https://freessl.cn
 
 ![image](https://user-images.githubusercontent.com/4297820/144698668-ab81e82e-d623-4367-bb67-e57b3f88f80b.png)
 
+客户端 clash 的 trojan 代理配置
+![middle_img_v2_7eea6559-a5d1-45e4-8657-77a21bf07f1g](https://user-images.githubusercontent.com/4297820/144699014-10689dd2-75a8-4aba-80f3-c1e6d1a322b8.png)
+
