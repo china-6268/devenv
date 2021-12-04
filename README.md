@@ -4,23 +4,29 @@
 有很多教程，我使用的是自己早就在阿里云（你好万维网）申请好的域名，就直接用了。<br>
 目前顶级域名据了解暂时只有freenom可免费申请，官网： http://www.freenom.com/zh/index.html<br>
 如果不知道怎么申请，百度【怎么申请freenom免费域名】<br>
-### 2.绑定DNS<br>
+### 2.申请主机，过程我就不描述了，只把结果列出来一下：<br>
+![image](https://user-images.githubusercontent.com/4297820/144719891-9c465f72-8361-4b94-899a-f84a75bbc3a2.png)<br>
+### 3.绑定DNS<br>
 ![image](https://user-images.githubusercontent.com/4297820/144697777-a575140b-bb0a-4c30-a472-06a78dfedc54.png)<br>
-### 3.站长工具 ping<br>
+### 4.站长工具 ping<br>
 ![image](https://user-images.githubusercontent.com/4297820/144699266-5d9c0359-8580-404f-8853-d9ae4e11af77.png)<br>
 https://freessl.cn<br>
-### 4.申请证书<br>
+### 5.申请证书<br>
 ![DwieuXFwEu](https://user-images.githubusercontent.com/4297820/144698331-5247a054-a975-4b07-a488-996d10f21b14.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698372-174adaa1-17f3-4e50-a105-c65981471313.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698377-b06caf55-849b-451a-a00d-8a5794130b15.png)<br>
-### 5.证书管理：<br>
+### 6.证书管理：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698663-372319a8-f0f3-4933-9f96-9e8d78d17642.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698668-ab81e82e-d623-4367-bb67-e57b3f88f80b.png)<br>
-## 6.服务端环境搭建
+## 7.服务端环境搭建
 经过参照两份材料，就可以完成服务端的搭建<br>
 https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
 和<br>
 https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
-### 7.客户端 clash 的 trojan 代理配置<br>
+### 8.客户端 clash 的 trojan 代理配置<br>
 ![middle_img_v2_7eea6559-a5d1-45e4-8657-77a21bf07f1g](https://user-images.githubusercontent.com/4297820/144699014-10689dd2-75a8-4aba-80f3-c1e6d1a322b8.png)<br>
 对于规则配置，可以参见 本项目中的[文件](https://github.com/china-6268/devenv/blob/main/clash.rules)<br>
+### 9. 我本地客户端的默认截图记录如下：<br>
+![image](https://user-images.githubusercontent.com/4297820/144719982-c866d1f4-4280-4b11-be55-103ddd4d001a.png)<br>
+注意，默认是建议选择“直连模式”来出站，这样对于按流量计费的方式没有压力，等需要科学上网时，在选择规则模式来出站。设置为“系统代理”会让小猫灰色激活为黑色。此时浏览器再改为“系统代理”就可以正常的科学上网了。点击“复制终端命令”，会得到如下的内容，拷贝到终端，就可以终端科学上网了。<br>
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7891
