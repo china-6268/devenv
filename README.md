@@ -4,7 +4,7 @@
 2.绑定DNS<br>
 ![image](https://user-images.githubusercontent.com/4297820/144697777-a575140b-bb0a-4c30-a472-06a78dfedc54.png)
 3.站长工具 ping<br>
-![image](https://user-images.githubusercontent.com/4297820/144698427-3d9587ad-059e-41b9-a9be-5d75399b19c1.png)
+![image](https://user-images.githubusercontent.com/4297820/144699266-5d9c0359-8580-404f-8853-d9ae4e11af77.png)
 https://freessl.cn<br>
 4.申请证书<br>
 ![DwieuXFwEu](https://user-images.githubusercontent.com/4297820/144698331-5247a054-a975-4b07-a488-996d10f21b14.png)
