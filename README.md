@@ -22,4 +22,5 @@ https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
 和<br>
 https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
 ### 7.客户端 clash 的 trojan 代理配置<br>
-![middle_img_v2_7eea6559-a5d1-45e4-8657-77a21bf07f1g](https://user-images.githubusercontent.com/4297820/144699014-10689dd2-75a8-4aba-80f3-c1e6d1a322b8.png)
+![middle_img_v2_7eea6559-a5d1-45e4-8657-77a21bf07f1g](https://user-images.githubusercontent.com/4297820/144699014-10689dd2-75a8-4aba-80f3-c1e6d1a322b8.png)<br>
+对于规则配置，可以参见 本项目中的[文件](https://github.com/china-6268/devenv/blob/main/clash.rules)<br>
