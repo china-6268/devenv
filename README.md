@@ -87,7 +87,10 @@ https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
 和<br>
 https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
 登录服务端更新系统<br>
+yum update -y<br>
+yum -y install  nginx wget curl telnet unzip zip tar xz <br>
 ![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
+
 创建trojan目录<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
 
