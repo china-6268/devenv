@@ -50,6 +50,12 @@ ssl验证<br>
 配置 nginx<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732260-7c59b165-3578-4470-abaf-939cdd2c18ce.png)<br>
 设置伪站点<br>
+cd /usr/share/nginx/html/    #进入站点更目录<br>
+wget https://github.com/V2RaySSR/Trojan/raw/master/web.zip<br>
+unzip web.zip<br>
+systemctl restart nginx.service<br><br>
+设定成功的样子：<br>
+![image](https://user-images.githubusercontent.com/4297820/144732324-d59e6186-e780-496b-b3d4-483e66dcbf0c.png)<br>
 
 
 
