@@ -50,8 +50,9 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
 ### 4.站长工具 ping<br>
 ![image](https://user-images.githubusercontent.com/4297820/144699266-5d9c0359-8580-404f-8853-d9ae4e11af77.png)<br>
-https://freessl.cn<br>
+
 ## 5.申请证书<br>
+通过 https://freessl.cn完成<br>
 ![DwieuXFwEu](https://user-images.githubusercontent.com/4297820/144698331-5247a054-a975-4b07-a488-996d10f21b14.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698372-174adaa1-17f3-4e50-a105-c65981471313.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698377-b06caf55-849b-451a-a00d-8a5794130b15.png)<br>
