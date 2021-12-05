@@ -125,7 +125,7 @@ After=network.target  <br>
 [Service]<br>  
 Type=simple  <br>
 PIDFile=/usr/src/trojan/trojan/trojan.pid<br>
-ExecStart=/usr/src/trojan/trojan -c "/usr/src/trojan/server.conf"  <br>
+ExecStart=/usr/src/trojan/trojan -c "/usr/src/trojan/config.json"  <br>
 ExecReload=  <br>
 ExecStop=/usr/src/trojan/trojan  <br>
 PrivateTmp=true  <br>
