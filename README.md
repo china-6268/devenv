@@ -78,6 +78,10 @@ PrivateTmp=true  <br>
 [Install]  <br>
 WantedBy=multi-user.target<br>
 <br>
+重启nginx，验证刚启动的域名主页，浏览器多出https的小锁<br>
+![image](https://user-images.githubusercontent.com/4297820/144732859-df683acd-6fce-4cd2-90c9-52a2ee53be54.png)<br>
+
+
 
 
 
