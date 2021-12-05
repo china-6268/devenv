@@ -56,18 +56,6 @@
 ![DwieuXFwEu](https://user-images.githubusercontent.com/4297820/144698331-5247a054-a975-4b07-a488-996d10f21b14.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698372-174adaa1-17f3-4e50-a105-c65981471313.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144698377-b06caf55-849b-451a-a00d-8a5794130b15.png)<br>
-## 6.证书管理：<br>
-![image](https://user-images.githubusercontent.com/4297820/144698663-372319a8-f0f3-4933-9f96-9e8d78d17642.png)<br>
-![image](https://user-images.githubusercontent.com/4297820/144698668-ab81e82e-d623-4367-bb67-e57b3f88f80b.png)<br>
-## 7.服务端环境搭建
-经过参照两份材料，就可以完成服务端的搭建<br>
-https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
-和<br>
-https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
-登录服务端更新系统<br>
-![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
-创建trojan目录<br>
-![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
 申请证书，注意标注的选择<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730568-47883ecf-7de1-4f3d-8d34-1f1557447d32.png)<br>
 打开keymanager<br>
@@ -82,6 +70,10 @@ ssl验证<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730895-3a29106e-1d54-4e1e-b947-ad67ffc8ed39.png)<br>
 点击验证<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730964-e6084282-3462-482e-b036-46a57d4e248b.png)<br>
+
+## 6.证书管理：<br>
+![image](https://user-images.githubusercontent.com/4297820/144698663-372319a8-f0f3-4933-9f96-9e8d78d17642.png)<br>
+![image](https://user-images.githubusercontent.com/4297820/144698668-ab81e82e-d623-4367-bb67-e57b3f88f80b.png)<br>
 保存证书<br>
 ![image](https://user-images.githubusercontent.com/4297820/144731033-9330dcef-47b6-4017-b877-ff99671a302c.png)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144731128-dd5f3c58-3be5-46b9-9cfc-7f4edf84663e.png)<br>
@@ -89,6 +81,16 @@ ssl验证<br>
 ![image](https://user-images.githubusercontent.com/4297820/144731790-d94845ad-aa9c-43cb-8b45-16a587b62370.png)<br>
 把导出的证书放到ecs主机里面，如图：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732102-305ac652-89eb-4e0a-bc05-67093cce1b8e.png)<br>
+## 7.服务端环境搭建
+经过参照两份材料，就可以完成服务端的搭建<br>
+https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
+和<br>
+https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
+登录服务端更新系统<br>
+![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
+创建trojan目录<br>
+![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
+
 配置 nginx<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732260-7c59b165-3578-4470-abaf-939cdd2c18ce.png)<br>
 设置伪站点<br>
