@@ -60,6 +60,24 @@ systemctl restart nginx.service<br><br>
 ![image](https://user-images.githubusercontent.com/4297820/144732531-b052e52c-8bff-426a-8716-cd1c1ef22587.png)<br>
 修改trojan.json(conf)<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732693-af518eb2-413d-4831-afe6-2451622d83e9.png)<br>
+启动trojan server<br>
+![image](https://user-images.githubusercontent.com/4297820/144732796-2683d5af-c3ff-47be-90b6-bc6baacded00.png)<br>
+对应trojan.service服务文件代码：<br>
+[Unit]  <br>
+Description=trojan  <br>
+After=network.target  <br>
+   <br>
+[Service]<br>  
+Type=simple  <br>
+PIDFile=/usr/src/trojan/trojan/trojan.pid<br>
+ExecStart=/usr/src/trojan/trojan -c "/usr/src/trojan/server.conf"  <br>
+ExecReload=  <br>
+ExecStop=/usr/src/trojan/trojan  <br>
+PrivateTmp=true  <br>
+   <br>
+[Install]  <br>
+WantedBy=multi-user.target<br>
+<br>
 
 
 
