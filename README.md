@@ -24,8 +24,10 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
 登录更新系统<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
-创建trojan目录
-![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)
+创建trojan目录<br>
+![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
+申请证书，注意标注的选择
+![image](https://user-images.githubusercontent.com/4297820/144730568-47883ecf-7de1-4f3d-8d34-1f1557447d32.png)
 
 
 
