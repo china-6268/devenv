@@ -9,7 +9,9 @@
 基础配置<br>
 ![image](https://user-images.githubusercontent.com/4297820/144729435-bdbf3bca-086d-4d16-9fe8-bf1ca35ece06.png)  <br>
 网络和安全组<br>
-![image](https://user-images.githubusercontent.com/4297820/144729500-65f530c5-4fec-4195-981c-683e30834ef6.png)
+![image](https://user-images.githubusercontent.com/4297820/144729500-65f530c5-4fec-4195-981c-683e30834ef6.png)<br>
+确认订单<br>
+![image](https://user-images.githubusercontent.com/4297820/144729690-67ab1a87-83fa-41f1-a4de-6f0e3d53af4d.png)<br>
 
 
 结果列出来如下：<br>
