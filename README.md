@@ -18,10 +18,7 @@
 ![image](https://user-images.githubusercontent.com/4297820/144729818-ca746d7d-b792-42f5-a632-e32a89dfb3d7.png)<br>
 重置密码<br>
 ![image](https://user-images.githubusercontent.com/4297820/144729889-0d1783b8-f5bf-4e15-ab02-6380d4998be6.png)<br>
-添加A记录<br>
-![image](https://user-images.githubusercontent.com/4297820/144730259-2a647703-65fd-4240-968b-4eb19711aad0.png)<br>
-验证确认A记录添加生效<br>
-![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
+
 
 
 
@@ -47,6 +44,10 @@
 ![image](https://user-images.githubusercontent.com/4297820/144719891-9c465f72-8361-4b94-899a-f84a75bbc3a2.png)<br>
 ## 3.绑定DNS<br>
 ![image](https://user-images.githubusercontent.com/4297820/144697777-a575140b-bb0a-4c30-a472-06a78dfedc54.png)<br>
+添加A记录<br>
+![image](https://user-images.githubusercontent.com/4297820/144730259-2a647703-65fd-4240-968b-4eb19711aad0.png)<br>
+验证确认A记录添加生效<br>
+![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
 ### 4.站长工具 ping<br>
 ![image](https://user-images.githubusercontent.com/4297820/144699266-5d9c0359-8580-404f-8853-d9ae4e11af77.png)<br>
 https://freessl.cn<br>
