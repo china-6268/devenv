@@ -34,6 +34,9 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730652-60758f92-3a5e-4819-bb0e-8628b8b13299.png)<br>
 准备点击“验证”<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730663-76b52f83-4a37-42de-b1d4-a0e7ddb4be96.png)<br>
+添加TXT记录：<br>
+![image](https://user-images.githubusercontent.com/4297820/144730790-bec63933-b778-4bcc-8593-7a03d1226c4e.png)<br>
+
 
 
 
