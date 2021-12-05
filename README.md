@@ -47,6 +47,11 @@ ssl验证<br>
 ![image](https://user-images.githubusercontent.com/4297820/144731790-d94845ad-aa9c-43cb-8b45-16a587b62370.png)<br>
 把导出的证书放到ecs主机里面，如图：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732102-305ac652-89eb-4e0a-bc05-67093cce1b8e.png)<br>
+配置 nginx<br>
+![image](https://user-images.githubusercontent.com/4297820/144732260-7c59b165-3578-4470-abaf-939cdd2c18ce.png)<br>
+设置伪站点<br>
+
+
 
 
 
