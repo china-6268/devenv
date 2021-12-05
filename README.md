@@ -30,6 +30,11 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730568-47883ecf-7de1-4f3d-8d34-1f1557447d32.png)<br>
 打开keymanager<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730623-eff2426b-7788-4047-89d2-efd88d5e55ad.png)<br>
+保存好证书到keyManager后，继续<br>
+![image](https://user-images.githubusercontent.com/4297820/144730652-60758f92-3a5e-4819-bb0e-8628b8b13299.png)<br>
+准备点击“验证”<br>
+![image](https://user-images.githubusercontent.com/4297820/144730663-76b52f83-4a37-42de-b1d4-a0e7ddb4be96.png)<br>
+
 
 
 
