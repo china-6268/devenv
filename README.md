@@ -58,6 +58,10 @@ systemctl restart nginx.service<br><br>
 ![image](https://user-images.githubusercontent.com/4297820/144732324-d59e6186-e780-496b-b3d4-483e66dcbf0c.png)<br>
 解压下载的trojan<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732531-b052e52c-8bff-426a-8716-cd1c1ef22587.png)<br>
+修改trojan.json(conf)<br>
+![image](https://user-images.githubusercontent.com/4297820/144732693-af518eb2-413d-4831-afe6-2451622d83e9.png)<br>
+
+
 
 
 
