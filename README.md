@@ -141,3 +141,4 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 ![image](https://user-images.githubusercontent.com/4297820/144720640-6c228d6e-a75a-4098-ac7e-aa90e65315db.png)<br>
 ## 10.允许局域网连接，是我觉得最有用的功能<br>
 因为虚拟机中通过配置浏览器代理就可以通过代理客户端科学上网了。但是当局域网是通过热点搭建的时，这个功能是无效的。<br>
+我们购买的一些科学上网工具比如lantern、QuickQ等，都为了盈利，控制不让通过局域网代理连接。<br>
