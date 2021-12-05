@@ -19,7 +19,10 @@
 重置密码<br>
 ![image](https://user-images.githubusercontent.com/4297820/144729889-0d1783b8-f5bf-4e15-ab02-6380d4998be6.png)<br>
 添加A记录<br>
-![image](https://user-images.githubusercontent.com/4297820/144730040-0df38f8b-97e0-42bb-be23-d75e0fda9563.png)
+![image](https://user-images.githubusercontent.com/4297820/144730040-0df38f8b-97e0-42bb-be23-d75e0fda9563.png)<br>
+验证确认A记录添加生效<br>
+![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
+
 
 
 
