@@ -6,7 +6,11 @@
 如果不知道怎么申请，百度【怎么申请freenom免费域名】<br>
 ## 2.申请主机<br>
 ### 2.1 采购一台最便宜的阿里云（目前我能找到的） <br>
-![image](https://user-images.githubusercontent.com/4297820/144729435-bdbf3bca-086d-4d16-9fe8-bf1ca35ece06.png)
+基础配置<br>
+![image](https://user-images.githubusercontent.com/4297820/144729435-bdbf3bca-086d-4d16-9fe8-bf1ca35ece06.png)  <br>
+网络和安全组<br>
+![image](https://user-images.githubusercontent.com/4297820/144729500-65f530c5-4fec-4195-981c-683e30834ef6.png)
+
 
 结果列出来如下：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144719891-9c465f72-8361-4b94-899a-f84a75bbc3a2.png)<br>
