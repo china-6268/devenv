@@ -17,7 +17,10 @@
 查看实例<br>
 ![image](https://user-images.githubusercontent.com/4297820/144729818-ca746d7d-b792-42f5-a632-e32a89dfb3d7.png)<br>
 重置密码<br>
-![image](https://user-images.githubusercontent.com/4297820/144729889-0d1783b8-f5bf-4e15-ab02-6380d4998be6.png)
+![image](https://user-images.githubusercontent.com/4297820/144729889-0d1783b8-f5bf-4e15-ab02-6380d4998be6.png)<br>
+添加A记录<br>
+![image](https://user-images.githubusercontent.com/4297820/144730040-0df38f8b-97e0-42bb-be23-d75e0fda9563.png)
+
 
 
 
