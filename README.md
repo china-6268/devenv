@@ -22,6 +22,10 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730259-2a647703-65fd-4240-968b-4eb19711aad0.png)<br>
 验证确认A记录添加生效<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
+登录更新系统<br>
+![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
+
+
 
 
 
