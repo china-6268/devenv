@@ -14,6 +14,9 @@
 ![image](https://user-images.githubusercontent.com/4297820/144729690-67ab1a87-83fa-41f1-a4de-6f0e3d53af4d.png)<br>
 创建实例<br>
 ![image](https://user-images.githubusercontent.com/4297820/144729741-3e6e0656-11ac-49af-813a-b170616a1b91.png)
+查看实例<br>
+![image](https://user-images.githubusercontent.com/4297820/144729818-ca746d7d-b792-42f5-a632-e32a89dfb3d7.png)
+
 
 
 结果列出来如下：<br>
