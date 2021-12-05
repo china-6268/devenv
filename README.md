@@ -45,6 +45,9 @@ ssl验证<br>
 ![image](https://user-images.githubusercontent.com/4297820/144731128-dd5f3c58-3be5-46b9-9cfc-7f4edf84663e.png)<br>
 导出证书<br>
 ![image](https://user-images.githubusercontent.com/4297820/144731790-d94845ad-aa9c-43cb-8b45-16a587b62370.png)<br>
+把导出的证书放到ecs主机里面，如图：<br>
+![image](https://user-images.githubusercontent.com/4297820/144732102-305ac652-89eb-4e0a-bc05-67093cce1b8e.png)<br>
+
 
 
 
