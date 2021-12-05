@@ -36,6 +36,8 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730663-76b52f83-4a37-42de-b1d4-a0e7ddb4be96.png)<br>
 添加TXT记录：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730790-bec63933-b778-4bcc-8593-7a03d1226c4e.png)<br>
+ssl验证<br>
+![image](https://user-images.githubusercontent.com/4297820/144730895-3a29106e-1d54-4e1e-b947-ad67ffc8ed39.png)<br>
 
 
 
