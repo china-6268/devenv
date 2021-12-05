@@ -38,6 +38,12 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730790-bec63933-b778-4bcc-8593-7a03d1226c4e.png)<br>
 ssl验证<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730895-3a29106e-1d54-4e1e-b947-ad67ffc8ed39.png)<br>
+点击验证<br>
+![image](https://user-images.githubusercontent.com/4297820/144730964-e6084282-3462-482e-b036-46a57d4e248b.png)<br>
+保存证书<br>
+![image](https://user-images.githubusercontent.com/4297820/144731033-9330dcef-47b6-4017-b877-ff99671a302c.png)<br>
+
+
 
 
 
