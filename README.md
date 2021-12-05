@@ -56,6 +56,9 @@ unzip web.zip<br>
 systemctl restart nginx.service<br><br>
 设定成功的样子：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732324-d59e6186-e780-496b-b3d4-483e66dcbf0c.png)<br>
+解压下载的trojan<br>
+![image](https://user-images.githubusercontent.com/4297820/144732531-b052e52c-8bff-426a-8716-cd1c1ef22587.png)<br>
+
 
 
 
