@@ -137,7 +137,8 @@ WantedBy=multi-user.target<br>
 重启nginx，验证刚启动的域名主页，浏览器多出https的小锁<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732859-df683acd-6fce-4cd2-90c9-52a2ee53be54.png)<br>
 搭建好的样子截图如下：<br>
-![image](https://user-images.githubusercontent.com/4297820/144720552-c76b2d80-b48d-4f17-a57f-29e12416266d.png)
+![image](https://user-images.githubusercontent.com/4297820/144750408-6657cc87-2f5b-4c55-a79b-c276d15dc907.png)<br>
+
 
 ## 8.客户端 clash 的 trojan 代理配置<br>
 ![middle_img_v2_7eea6559-a5d1-45e4-8657-77a21bf07f1g](https://user-images.githubusercontent.com/4297820/144699014-10689dd2-75a8-4aba-80f3-c1e6d1a322b8.png)<br>
