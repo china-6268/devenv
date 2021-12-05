@@ -26,8 +26,10 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
 创建trojan目录<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
-申请证书，注意标注的选择
-![image](https://user-images.githubusercontent.com/4297820/144730568-47883ecf-7de1-4f3d-8d34-1f1557447d32.png)
+申请证书，注意标注的选择<br>
+![image](https://user-images.githubusercontent.com/4297820/144730568-47883ecf-7de1-4f3d-8d34-1f1557447d32.png)<br>
+打开keymanager<br>
+![image](https://user-images.githubusercontent.com/4297820/144730623-eff2426b-7788-4047-89d2-efd88d5e55ad.png)<br>
 
 
 
