@@ -119,6 +119,8 @@ tar xf ./trojan-1.16.0-linux-amd64.tar.xz<br>
 启动trojan server<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732796-2683d5af-c3ff-47be-90b6-bc6baacded00.png)<br>
 对应trojan.service服务文件代码：<br>
+vi /usr/lib/systemd/system/trojan.service<br>
+填入下面的代码：<br>
 [Unit]  <br>
 Description=trojan  <br>
 After=network.target  <br>
@@ -133,6 +135,10 @@ PrivateTmp=true  <br>
    <br>
 [Install]  <br>
 WantedBy=multi-user.target<br>
+然后<br>
+systemctl enable trojan<br>
+systemctl restart trojan<br>
+systemctl status trojan<br>
 <br>
 重启nginx，验证刚启动的域名主页，浏览器多出https的小锁<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732859-df683acd-6fce-4cd2-90c9-52a2ee53be54.png)<br>
