@@ -22,7 +22,47 @@
 ![image](https://user-images.githubusercontent.com/4297820/144730259-2a647703-65fd-4240-968b-4eb19711aad0.png)<br>
 验证确认A记录添加生效<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730197-53a9a98a-21a8-4c98-9ef9-bfbd852f17e7.png)<br>
-登录更新系统<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+结果列出来如下：<br>
+![image](https://user-images.githubusercontent.com/4297820/144719891-9c465f72-8361-4b94-899a-f84a75bbc3a2.png)<br>
+## 3.绑定DNS<br>
+![image](https://user-images.githubusercontent.com/4297820/144697777-a575140b-bb0a-4c30-a472-06a78dfedc54.png)<br>
+### 4.站长工具 ping<br>
+![image](https://user-images.githubusercontent.com/4297820/144699266-5d9c0359-8580-404f-8853-d9ae4e11af77.png)<br>
+https://freessl.cn<br>
+## 5.申请证书<br>
+![DwieuXFwEu](https://user-images.githubusercontent.com/4297820/144698331-5247a054-a975-4b07-a488-996d10f21b14.png)<br>
+![image](https://user-images.githubusercontent.com/4297820/144698372-174adaa1-17f3-4e50-a105-c65981471313.png)<br>
+![image](https://user-images.githubusercontent.com/4297820/144698377-b06caf55-849b-451a-a00d-8a5794130b15.png)<br>
+## 6.证书管理：<br>
+![image](https://user-images.githubusercontent.com/4297820/144698663-372319a8-f0f3-4933-9f96-9e8d78d17642.png)<br>
+![image](https://user-images.githubusercontent.com/4297820/144698668-ab81e82e-d623-4367-bb67-e57b3f88f80b.png)<br>
+## 7.服务端环境搭建
+经过参照两份材料，就可以完成服务端的搭建<br>
+https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
+和<br>
+https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
+登录服务端更新系统<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
 创建trojan目录<br>
 ![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
@@ -80,45 +120,6 @@ WantedBy=multi-user.target<br>
 <br>
 重启nginx，验证刚启动的域名主页，浏览器多出https的小锁<br>
 ![image](https://user-images.githubusercontent.com/4297820/144732859-df683acd-6fce-4cd2-90c9-52a2ee53be54.png)<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-结果列出来如下：<br>
-![image](https://user-images.githubusercontent.com/4297820/144719891-9c465f72-8361-4b94-899a-f84a75bbc3a2.png)<br>
-## 3.绑定DNS<br>
-![image](https://user-images.githubusercontent.com/4297820/144697777-a575140b-bb0a-4c30-a472-06a78dfedc54.png)<br>
-### 4.站长工具 ping<br>
-![image](https://user-images.githubusercontent.com/4297820/144699266-5d9c0359-8580-404f-8853-d9ae4e11af77.png)<br>
-https://freessl.cn<br>
-## 5.申请证书<br>
-![DwieuXFwEu](https://user-images.githubusercontent.com/4297820/144698331-5247a054-a975-4b07-a488-996d10f21b14.png)<br>
-![image](https://user-images.githubusercontent.com/4297820/144698372-174adaa1-17f3-4e50-a105-c65981471313.png)<br>
-![image](https://user-images.githubusercontent.com/4297820/144698377-b06caf55-849b-451a-a00d-8a5794130b15.png)<br>
-## 6.证书管理：<br>
-![image](https://user-images.githubusercontent.com/4297820/144698663-372319a8-f0f3-4933-9f96-9e8d78d17642.png)<br>
-![image](https://user-images.githubusercontent.com/4297820/144698668-ab81e82e-d623-4367-bb67-e57b3f88f80b.png)<br>
-## 7.服务端环境搭建
-经过参照两份材料，就可以完成服务端的搭建<br>
-https://www.v2rayssr.com/trojanssl.html/comment-page-1<br>
-和<br>
-https://www.youtube.com/watch?v=9a1x_uRzy2Q<br>
 搭建好的样子截图如下：<br>
 ![image](https://user-images.githubusercontent.com/4297820/144720552-c76b2d80-b48d-4f17-a57f-29e12416266d.png)
 
