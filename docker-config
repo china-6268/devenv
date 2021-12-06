@@ -133,3 +133,86 @@ Is this ok [y/N]:
 Installed:
   docker-ce-3:20.10.11-3.el8.x86_64   docker-ce-cli-1:20.10.11-3.el8.x86_64   docker-ce-rootless-extras-20.10.11-3.el8.x86_64   docker-scan-plugin-0.9.0-3.el8.x86_64  
   libcgroup-0.41-19.el8.x86_64   
+
+
+正常安装过程是这样的：
+yum -y install docker-ce-20.10.11
+Last metadata expiration check: 1:13:12 ago on Mon 06 Dec 2021 04:15:02 PM CST.
+Dependencies resolved.
+==========================================================================================================================================================================
+ Package                                      Architecture              Version                                                 Repository                           Size
+==========================================================================================================================================================================
+Installing:
+ docker-ce                                    x86_64                    3:20.10.11-3.el8                                        docker-ce-stable                     22 M
+Installing dependencies:
+ docker-ce-cli                                x86_64                    1:20.10.11-3.el8                                        docker-ce-stable                     29 M
+ docker-ce-rootless-extras                    x86_64                    20.10.11-3.el8                                          docker-ce-stable                    4.6 M
+ docker-scan-plugin                           x86_64                    0.9.0-3.el8                                             docker-ce-stable                    3.7 M
+ fuse-overlayfs                               x86_64                    1.7.1-1.module_el8.5.0+890+6b136101                     appstream                            73 k
+ fuse3                                        x86_64                    3.2.1-12.el8                                            baseos                               50 k
+ fuse3-libs                                   x86_64                    3.2.1-12.el8                                            baseos                               94 k
+ libcgroup                                    x86_64                    0.41-19.el8                                             baseos                               70 k
+ libslirp                                     x86_64                    4.4.0-1.module_el8.5.0+890+6b136101                     appstream                            70 k
+ slirp4netns                                  x86_64                    1.1.8-1.module_el8.5.0+890+6b136101                     appstream                            51 k
+
+Transaction Summary
+==========================================================================================================================================================================
+Install  10 Packages
+
+Total download size: 60 M
+Installed size: 264 M
+Downloading Packages:
+(1/10): fuse-overlayfs-1.7.1-1.module_el8.5.0+890+6b136101.x86_64.rpm                                                                      40 kB/s |  73 kB     00:01    
+(2/10): fuse3-3.2.1-12.el8.x86_64.rpm                                                                                                     432 kB/s |  50 kB     00:00    
+(3/10): fuse3-libs-3.2.1-12.el8.x86_64.rpm                                                                                                1.3 MB/s |  94 kB     00:00    
+(4/10): libcgroup-0.41-19.el8.x86_64.rpm                                                                                                  1.3 MB/s |  70 kB     00:00    
+(5/10): slirp4netns-1.1.8-1.module_el8.5.0+890+6b136101.x86_64.rpm                                                                         14 kB/s |  51 kB     00:03    
+(6/10): docker-ce-20.10.11-3.el8.x86_64.rpm                                                                                               4.6 MB/s |  22 MB     00:04    
+(7/10): libslirp-4.4.0-1.module_el8.5.0+890+6b136101.x86_64.rpm                                                                            10 kB/s |  70 kB     00:06    
+(8/10): docker-ce-rootless-extras-20.10.11-3.el8.x86_64.rpm                                                                               5.0 MB/s | 4.6 MB     00:00    
+(9/10): docker-scan-plugin-0.9.0-3.el8.x86_64.rpm                                                                                         1.3 MB/s | 3.7 MB     00:02    
+(10/10): docker-ce-cli-20.10.11-3.el8.x86_64.rpm                                                                                          4.5 MB/s |  29 MB     00:06    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                     5.5 MB/s |  60 MB     00:10     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                  1/1 
+  Installing       : docker-scan-plugin-0.9.0-3.el8.x86_64                                                                                                           1/10 
+  Running scriptlet: docker-scan-plugin-0.9.0-3.el8.x86_64                                                                                                           1/10 
+  Installing       : docker-ce-cli-1:20.10.11-3.el8.x86_64                                                                                                           2/10 
+  Running scriptlet: docker-ce-cli-1:20.10.11-3.el8.x86_64                                                                                                           2/10 
+  Running scriptlet: libcgroup-0.41-19.el8.x86_64                                                                                                                    3/10 
+  Installing       : libcgroup-0.41-19.el8.x86_64                                                                                                                    3/10 
+  Running scriptlet: libcgroup-0.41-19.el8.x86_64                                                                                                                    3/10 
+  Installing       : fuse3-libs-3.2.1-12.el8.x86_64                                                                                                                  4/10 
+  Running scriptlet: fuse3-libs-3.2.1-12.el8.x86_64                                                                                                                  4/10 
+  Installing       : fuse3-3.2.1-12.el8.x86_64                                                                                                                       5/10 
+  Installing       : fuse-overlayfs-1.7.1-1.module_el8.5.0+890+6b136101.x86_64                                                                                       6/10 
+  Running scriptlet: fuse-overlayfs-1.7.1-1.module_el8.5.0+890+6b136101.x86_64                                                                                       6/10 
+  Installing       : libslirp-4.4.0-1.module_el8.5.0+890+6b136101.x86_64                                                                                             7/10 
+  Installing       : slirp4netns-1.1.8-1.module_el8.5.0+890+6b136101.x86_64                                                                                          8/10 
+  Installing       : docker-ce-3:20.10.11-3.el8.x86_64                                                                                                               9/10 
+  Running scriptlet: docker-ce-3:20.10.11-3.el8.x86_64                                                                                                               9/10 
+  Installing       : docker-ce-rootless-extras-20.10.11-3.el8.x86_64                                                                                                10/10 
+  Running scriptlet: docker-ce-rootless-extras-20.10.11-3.el8.x86_64                                                                                                10/10 
+  Verifying        : fuse-overlayfs-1.7.1-1.module_el8.5.0+890+6b136101.x86_64                                                                                       1/10 
+  Verifying        : libslirp-4.4.0-1.module_el8.5.0+890+6b136101.x86_64                                                                                             2/10 
+  Verifying        : slirp4netns-1.1.8-1.module_el8.5.0+890+6b136101.x86_64                                                                                          3/10 
+  Verifying        : fuse3-3.2.1-12.el8.x86_64                                                                                                                       4/10 
+  Verifying        : fuse3-libs-3.2.1-12.el8.x86_64                                                                                                                  5/10 
+  Verifying        : libcgroup-0.41-19.el8.x86_64                                                                                                                    6/10 
+  Verifying        : docker-ce-3:20.10.11-3.el8.x86_64                                                                                                               7/10 
+  Verifying        : docker-ce-cli-1:20.10.11-3.el8.x86_64                                                                                                           8/10 
+  Verifying        : docker-ce-rootless-extras-20.10.11-3.el8.x86_64                                                                                                 9/10 
+  Verifying        : docker-scan-plugin-0.9.0-3.el8.x86_64                                                                                                          10/10 
+
+Installed:
+  docker-ce-3:20.10.11-3.el8.x86_64                       docker-ce-cli-1:20.10.11-3.el8.x86_64                      docker-ce-rootless-extras-20.10.11-3.el8.x86_64     
+  docker-scan-plugin-0.9.0-3.el8.x86_64                   fuse-overlayfs-1.7.1-1.module_el8.5.0+890+6b136101.x86_64  fuse3-3.2.1-12.el8.x86_64                           
+  fuse3-libs-3.2.1-12.el8.x86_64                          libcgroup-0.41-19.el8.x86_64                               libslirp-4.4.0-1.module_el8.5.0+890+6b136101.x86_64 
+  slirp4netns-1.1.8-1.module_el8.5.0+890+6b136101.x86_64 
+
+Complete!
