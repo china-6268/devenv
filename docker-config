@@ -9,6 +9,7 @@ yum install docker-ce-20.10.11
 Last metadata expiration check: 0:00:48 ago on Mon 06 Dec 2021 03:01:53 PM CST.
 Error: 
  + Problem: package docker-ce-3:20.10.11-3.el8.x86_64 requires containerd.io >= 1.4.1, but none of the providers can be installed in gray
+ ```
   - package containerd.io-1.4.10-3.1.el8.x86_64 conflicts with runc provided by runc-1.0.2-1.module_el8.5.0+911+f19012f9.x86_64
   - package containerd.io-1.4.10-3.1.el8.x86_64 obsoletes runc provided by runc-1.0.2-1.module_el8.5.0+911+f19012f9.x86_64
   - package containerd.io-1.4.11-3.1.el8.x86_64 conflicts with runc provided by runc-1.0.2-1.module_el8.5.0+911+f19012f9.x86_64
