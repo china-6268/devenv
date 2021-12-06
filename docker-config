@@ -1,6 +1,8 @@
 
 Centos8安装docker，碰到问题（坑）1
-
+```json
+   // Code for coloring
+```
 yum install docker-ce-20.10.11
 
 <span style="color: green"> 
