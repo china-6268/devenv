@@ -1,9 +1,20 @@
 
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
 Centos8安装docker，碰到问题（坑）1
+
 ```json
    // Code for coloring
 ```
 yum install docker-ce-20.10.11
+```js
+   // Code for coloring
+```
+```css
+   // Code for coloring
+```
 
 ```html
    // Code for coloring
