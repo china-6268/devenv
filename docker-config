@@ -81,3 +81,51 @@ Error:
 dnf install https://download.docker.com/linux/centos/8/x86_64/stable/Packages/containerd.io-1.4.9-3.1.el8.x86_64.rpm --allowerasing
 装docker之前网卡3块
 
+ifconfig
+enp0s5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.227  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::21c:42ff:fefd:c04d  prefixlen 64  scopeid 0x20<link>
+        ether 00:1c:42:fd:c0:4d  txqueuelen 1000  (Ethernet)
+        RX packets 76965  bytes 100747348 (96.0 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21209  bytes 1828983 (1.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:31:79:3c  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+正常安装时提示如下：
+yum install docker-ce-20.10.11
+Last metadata expiration check: 0:55:44 ago on Mon 06 Dec 2021 04:15:02 PM CST.
+Dependencies resolved.
+==========================================================================================================================================================================
+ Package                                           Architecture                   Version                                  Repository                                Size
+==========================================================================================================================================================================
+Installing:
+ docker-ce                                         x86_64                         3:20.10.11-3.el8                         docker-ce-stable                          22 M
+Installing dependencies:
+ docker-ce-cli                                     x86_64                         1:20.10.11-3.el8                         docker-ce-stable                          29 M
+ docker-ce-rootless-extras                         x86_64                         20.10.11-3.el8                           docker-ce-stable                         4.6 M
+ docker-scan-plugin                                x86_64                         0.9.0-3.el8                              docker-ce-stable                         3.7 M
+ libcgroup                                         x86_64                         0.41-19.el8                              baseos                                    70 k
+
+Transaction Summary
+==========================================================================================================================================================================
+Install  5 Packages
+
+Total download size: 60 M
+Installed size: 263 M
+Is this ok [y/N]: 
