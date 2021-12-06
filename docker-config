@@ -2,9 +2,9 @@
 1、Docker要求CentOS系统的内核版本高于3.10，查看本页面的前提条件来验证你的CentOS版本
       是否支持Docker，通过uname -r命令查看你当前的内核版本
 $ uname -r
-4.4.227-1.el7.elrepo.x86_64
+4.18.0-348.el8.x86_64
 备注：
-3.10的内核版本与Docker和K8S会有兼容性问题，稳定性较差，建议升级到4.4版本
+3.10的内核版本与Docker和K8S会有兼容性问题，稳定性较差，建议升级到4.4及以上版本
 
 2、使用root权限登录Centos。确保yum包更新到最新
 $ yum update
@@ -26,10 +26,12 @@ $ yum makecache fast      生成新的缓存
 $ yum list docker-ce --showduplicates | sort -r
 
 7、安装最新稳定版docker
-$ yum -y install docker-ce-20.10.8
+$ yum -y install docker-ce-20.10.11
 
-Centos8安装docker，碰到问题（坑）1
-
+Centos8安装docker，
+本文采用版本为centos 8.5.2111 安装docker过程中 碰到问题（坑）1
+执行 
+$ yum -y install docker-ce-20.10.11 时，提示：
 Last metadata expiration check: 0:00:48 ago on Mon 06 Dec 2021 03:01:53 PM CST.
 Error: 
  Problem: package docker-ce-3:20.10.11-3.el8.x86_64 requires containerd.io >= 1.4.1, but none of the providers can be installed
