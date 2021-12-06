@@ -1,4 +1,4 @@
-一、Docker的yum安装
+## 一、Docker的yum安装
 1、Docker要求CentOS系统的内核版本高于3.10，查看本页面的前提条件来验证你的CentOS版本
       是否支持Docker，通过uname -r命令查看你当前的内核版本
 $ uname -r
