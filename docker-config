@@ -79,3 +79,5 @@ Error:
 
 此时照着提示的解决办法往前走就可以了，比如这里可以这么写：
 dnf install https://download.docker.com/linux/centos/8/x86_64/stable/Packages/containerd.io-1.4.9-3.1.el8.x86_64.rpm --allowerasing
+装docker之前网卡3块
+
