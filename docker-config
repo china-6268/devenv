@@ -14,15 +14,25 @@ $ rpm -qa | grep docker
 $ yum remove docker docker-common docker-selinux docker-engine
 
 4、安装需要的软件包，yum-util提供yum-config-manager功能，另外两个是devicemapper驱动依赖
-$ yum install -y yum-utils device-mapper-persistent-data lvm2 gcc gcc-c++
+$ dnf install -y yum-utils device-mapper-persistent-data lvm2 gcc gcc-c++
+
+备份yum源
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+cd /etc/yum.repos.d/
+wget http://mirrors.163.com/.help/CentOS7-Base-163.repo
+yum clean all
+yum makecache
 
 5、设置yum源
 $ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 $ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
+
+
+
 6、更新yum缓存，查看所有仓库中所有docker版本，并选择特定版本安装
 $ yum clean all                  清理缓存
-$ yum makecache fast      生成新的缓存
+$ yum makecache                 生成新的缓存
 $ yum list docker-ce --showduplicates | sort -r
 
 7、安装最新稳定版docker
