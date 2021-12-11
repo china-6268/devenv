@@ -20,6 +20,8 @@ $ dnf install -y yum-utils device-mapper-persistent-data lvm2 gcc gcc-c++
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 cd /etc/yum.repos.d/
 wget http://mirrors.163.com/.help/CentOS7-Base-163.repo
+对于centos8，可以使用阿里云
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-8.repo
 yum clean all
 yum makecache
 
