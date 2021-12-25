@@ -1,0 +1,32 @@
+自动root登录
+1、设置root密码
+sudo passwd root
+根据提示输入密码（此时输入的密码是以后登录root账户时的密码）
+
+2、设置50-ubuntu.conf
+打开 /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+在终端中用 sudo chmod 777 文件名 来设置权限
+修改 [Seat:*]
+user-session=ubuntu
+autologin-guest=false
+autologin-user=root
+autologin-user-timeout=0
+greeter-session=lightdm-gtk-greeter
+
+3、修改/etc/pam.d/下文件
+修改/etc/pam.d/gdm-autologin ，gdm-fingerprint，gdm-password 的权限777（如果没有gdm-fingerprint可忽略）
+注释每个文件中的 #auth required pam_succeed_if.so user != root quiet_success
+
+4、修改/root/.profile文件
+/root/.profile
+文档最后一行 mesg n || true 前添加 tty -s && 即 tty -s &&mesg n || true
+这个文件是隐藏的，可点右上角三道杆来显示隐藏文件
+
+5、修改/etc/gdm3/custom.conf
+# Enabling automatic login
+AutomaticLoginEnable = true
+AutomaticLogin = root
+# Enabling timed login
+TimedLoginEnable = true
+TimedLogin = root
+TimedLoginDelay = 5
