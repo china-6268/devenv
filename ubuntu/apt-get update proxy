@@ -1,0 +1,5 @@
+vi /etc/apt/apt.conf.d/95proxies<br>
+
+
+Acquire::http::proxy "http://172.20.10.2:7890";<br>
+Acquire::https::proxy "http://172.20.10.2:7890";<br>
