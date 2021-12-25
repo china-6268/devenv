@@ -75,6 +75,7 @@ etcd集群各机器需要时间同步，chrony用于系统时间同步
 # systemctl stop firewalld
 # systemctl disable firewalld
 # iptables -F && iptables -X && iptables -F -t nat && iptables -X -t nat
+(iptables规则全部清除命令 iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X && iptables -t raw -F)
 # iptables -P FORWARD ACCEPT
 
 ## 关闭swap分区，否则kubelet会启动失败
