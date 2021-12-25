@@ -1,6 +1,6 @@
-vi /etc/apt/apt.conf.d/95proxies<br>
+vi /etc/apt/apt.conf.d/95proxies
 
-and then add these lines (one for http and https) with your proxy server address and port:<br>
+and then add these lines (one for http and https) with your proxy server address and port:
 
-Acquire::http::proxy "http://172.20.10.2:7890";<br>
-Acquire::https::proxy "http://172.20.10.2:7890";<br>
+Acquire::http::proxy "http://172.20.10.2:7890";
+Acquire::https::proxy "http://172.20.10.2:7890";
