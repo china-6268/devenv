@@ -22,6 +22,16 @@ greeter-session=lightdm-gtk-greeter
 文档最后一行 mesg n || true 前添加 tty -s && 即 tty -s &&mesg n || true
 这个文件是隐藏的，可点右上角三道杆来显示隐藏文件
 
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+tty -s && mesg n || true
+mesg n || true
+
+mesg n 2> /dev/null || true
+
 5、修改/etc/gdm3/custom.conf
 # Enabling automatic login
 AutomaticLoginEnable = true
