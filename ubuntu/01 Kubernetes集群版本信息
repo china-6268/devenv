@@ -1,0 +1,53 @@
+一、主要组件版本
+
+组件版本发布时间kubernetes1.18.52020-06etcd3.4.32019-10docker-ce19.03.112020-02calico3.13.32020-04coredns1.7.02020-2dashboardv2.0.02020-02k8s-prometheus-adapter0.5.02019-04prometheus-operator0.35.02020-01prometheus2.15.22020-01elasticsearch、kibana7.2.02019-06metrics-server0.3.62019-10
+
+
+二、主要配置策略
+
+kube-apiserver：
+使用节点本地nginx 4层透明代理实现高可用；
+关闭非安全端口8080和匿名访问；
+在安全端口6443接收https请求；
+严格的认证和授权策略 (x509、token、RBAC)；
+开启bootstrap token认证，支持kubelet TLS bootstrapping；
+使用https访问kubelet、etcd，加密通信；
+
+kube-controller-manager：
+3 节点高可用；
+关闭非安全端口，在安全端口10252接收https请求；
+使用kubeconfig访问apiserver的安全端口；
+自动approve kubelet证书签名请求 (CSR)，证书过期后自动轮转；
+各controller使用自己的ServiceAccount访问apiserver；
+
+kube-scheduler：
+3节点高可用；
+使用kubeconfig访问apiserver的安全端口；
+
+kubelet：
+使用kubeadm动态创建bootstrap token，而不是在apiserver中静态配置；
+使用TLS bootstrap机制自动生成client和server证书，过期后自动轮转；
+在KubeletConfiguration类型的JSON文件配置主要参数；
+关闭只读端口，在安全端口10250接收https请求，对请求进行认证和授权，拒绝匿名访问和非授权访问；
+使用kubeconfig访问apiserver的安全端口；
+
+kube-proxy：
+使用kubeconfig访问apiserver的安全端口；
+在KubeProxyConfiguration类型的JSON文件配置主要参数；
+使用ipvs代理模式；
+
+addon：
+DNS：使用功能、性能更好的coredns；
+Dashboard：支持登录认证；
+Metric：metrics-server，使用https访问kubelet安全端口；
+Log：Elasticsearch、Fluend、Kibana；
+Registry镜像库：harbor；
+
+
+三、主要软件二进制文件下载
+
+Kubernetes下载链接：
+https://github.com/kubernetes/kubernetes/tree/master/CHANGELOG
+
+Etcd下载链接：
+https://github.com/etcd-io/etcd
