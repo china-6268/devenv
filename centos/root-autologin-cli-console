@@ -1,0 +1,32 @@
+I finally made it!
+
+I think that's the problem was that getty.targets needed absolutely something called getty@tty1.service otherwise was the getty service was targetless (don't know exactly why or how, it's just a wild guess) and therefore that's what I did:
+
+1. remove the original getty@tty1.service symlink:
+
+Code:
+ # rm /etc/systemd/system/getty.target.wants/getty@tty1.service
+2. make a copy of the getty@.service file and call it getty@tty1.service
+
+Code:
+# cp /lib/systemd/system/getty@.service /etc/systemd/system/getty@tty1.service
+3. edit this file (the last line, must be ADDED):
+
+Code:
+[Service]
+...
+ExecStart=-/sbin/agetty --autologin root --noclear %I
+...
+[Install]
+...
+;Alias=getty@tty1.service
+4. make a symlink in getty.target.wants
+
+Code:
+ # ln -s /etc/systemd/system/getty@tty1.service /etc/systemd/system/getty.target.wants/getty@tty1.service
+5. Reboot. It everything went fine you will be logged in as root.
+
+6. If point 5 is successful, dance in celebration! You've earned it!
+
+Thanks to @Ahmad Samir for his invaluable help!
+Last edited by cryingfist; 13th February 2014 at 05:25 PM.
