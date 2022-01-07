@@ -92,7 +92,9 @@ yum -y install  nginx wget curl telnet unzip zip tar xz <br>
 ![image](https://user-images.githubusercontent.com/4297820/144730345-d1cefd32-e767-4465-8cca-2792d02dc40e.png)<br>
 
 
-
+mkdir -p /usr/src/trojan  /usr/src/trojan-cert<br>
+cd /usr/src/<br>
+ls -tral<br>
 
 ![image](https://user-images.githubusercontent.com/4297820/144730422-8e605419-6b4a-4943-a241-a70673885e7c.png)<br>
 
