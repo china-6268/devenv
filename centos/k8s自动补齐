@@ -1,0 +1,5 @@
+ 来源：https://python.iitter.com/other/291782.html
+ 
+kubectl completion bash >/etc/bash_completion.d/kubectl
+kubeadm completion bash >/etc/bash_completion.d/kubeadm
+#退出当前终端生效
