@@ -1,0 +1,31 @@
+配置内核模块
+
+cat > /etc/modules-load.d/kubernetes.conf <<EOF
+ip_vs_dh
+ip_vs_ftp
+ip_vs
+ip_vs_lblc
+ip_vs_lblcr
+ip_vs_lc
+ip_vs_nq
+ip_vs_pe_sip
+ip_vs_rr
+ip_vs_sed
+ip_vs_sh
+ip_vs_wlc
+ip_vs_wrr
+nf_conntrack_ipv4
+overlay
+br_netfilter
+EOF
+
+lsmod | grep -e ip_vs -e nf_conntrack_ipv4
+
+systemctl enable systemd-modules-load.service
+
+lsmod | grep -e ip_vs -e nf_conntrack_ipv4
+
+sync
+reboot
+
+lsmod | grep -e ip_vs -e nf_conntrack_ipv4
