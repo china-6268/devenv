@@ -1,0 +1,11 @@
+来自： https://blog.heylinux.com/2021/12/%E4%BD%BF%E7%94%A8kubeadm%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2kubernetes%E9%9B%86%E7%BE%A4/
+yum install -y epel-release
+yum install -y chrony conntrack ipvsadm ipset jq iptables curl sysstat libseccomp wget socat git vim lrzsz wget man tree rsync gcc gcc-c++ cmake telnet
+
+yum install -y epel-release
+yum install -y chrony conntrack ipvsadm ipset jq iptables curl sysstat libseccomp wget socat git vim lrzsz wget man tree rsync gcc gcc-c++ cmake telnet
+
+yum remove docker* -y
+yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+sed -i 's/download.docker.com/mirrors.aliyun.com\/docker-ce/g' /etc/yum.repos.d/docker-ce.repo
+yum -y install docker docker-distribution
