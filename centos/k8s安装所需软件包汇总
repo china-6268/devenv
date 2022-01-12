@@ -8,6 +8,10 @@ yum install -y chrony conntrack ipvsadm ipset jq iptables curl sysstat libseccom
 
 yum install -y yum-utils device-mapper-persistent-data lvm2 lrzsz conntrack ipvsadm ipset iptables iptables-services curl sysstat libseccomp wget vim net-tools git jq tc
 
+
+yum install -y yum-utils device-mapper-persistent-data lvm2 lrzsz conntrack ipvsadm ipset iptables iptables-services curl sysstat libseccomp wget vim net-tools git jq tc
+
+
 yum remove docker* -y
 yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 sed -i 's/download.docker.com/mirrors.aliyun.com\/docker-ce/g' /etc/yum.repos.d/docker-ce.repo
